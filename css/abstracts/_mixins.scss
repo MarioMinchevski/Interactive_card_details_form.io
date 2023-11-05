@@ -1,0 +1,28 @@
+@use "./variables" as var;
+@use "sass:math";
+
+// RESPONSIVE LAPTOP FIRST DESIGN MIXINS
+
+@mixin laptop-small {
+    @media (max-width: 1200px) {
+        @content;
+    }
+}
+
+@mixin laptop-to-tablet {
+    @media (max-width: 1070px) {
+        @content;
+    }
+}
+
+@mixin tablet-mobile {
+    @media (max-width: 896px) {
+        @content;
+    }
+}
+
+@mixin mobile {
+    @media (max-width: 578px) {
+        @content;
+    }
+}

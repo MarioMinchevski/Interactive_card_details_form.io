@@ -1,0 +1,12 @@
+@use '../abstracts/mixins' as *;
+@use '../abstracts/variables' as *;
+
+
+body {
+    font-family: $font-family-base;
+    min-height: 100vh;
+}
+
+.displayNone {
+    display: none !important;
+}
